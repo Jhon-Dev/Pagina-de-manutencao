@@ -1,0 +1,140 @@
+body {
+ 
+  font-family: 'Roboto', sans-serif;}
+ 
+.fname
+{
+  margin-top:0;
+
+  margin-bottom: 0;
+  color: white;
+  width:100%;
+  letter-spacing: 1px;
+  font-family:Garamond, serif;
+  /*line-height:10px;*/
+  color:#0000009c;
+  font-weight:bold;
+  font-size: 80px;
+  line-height: 100px;
+  
+
+
+}
+
+.subname
+{
+  margin-top:0;
+
+  margin-bottom: 0;
+  color: white;
+  width:100%;
+  letter-spacing: 5px;
+  font-family:Garamond, serif;
+  /*line-height:10px;*/
+  color:#0000009c;
+  font-weight:bold;
+  font-size:10px;
+
+}
+.text
+{
+
+ width:100%;
+
+   margin-bottom: 10%;
+    top: 20%;
+
+    position: absolute;
+    text-align: center;
+}
+
+.learn-more-container
+{
+  color:white;
+  margin-top:30px;
+  font-size: 22px;
+}
+
+.subname{
+  font-size: 50px;
+}
+
+.copyright
+{
+
+  font-size:15px;
+  text-align: center;
+  margin-bottom: 2;
+  color:#000000a8;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 6px;
+  padding-bottom: 40px;
+}
+
+
+/************** MODAL CSS***************/
+
+.social-links
+{
+/*Muda a cor do icone*/
+  fill:#000000a8;
+}
+/*Muda a cor do efeito*/
+.social-links:hover  { 
+  fill: #111;
+}
+
+
+.footer-icons {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto 40px/*40px auto 60px*/;
+  width: 45%;
+}
+
+.email, .email-text {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: black;
+  cursor: pointer;
+}
+
+.email-text:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ----------------------------- MEDIA QUERIES 768 PIXELS ---*/
+@media (min-width: 768px) {
+
+  .text
+  {
+    width:80%;
+    left:10%;
+    top: 40%;
+  }
+  
+}
+
+/* ----------------------------- MEDIA QUERIES 1024 PIXELS ---*/
+
+@media screen and (min-width: 1024px) {
+  
+   .subname{
+    font-size: 40px;
+    line-height: 60px;
+  }
+  
+.skills-icon
+{
+  width:40%;
+  height:50%;
+
+ }
+}
